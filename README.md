@@ -1,2 +1,2 @@
-# CIGpred
-We introduce CIG-Pred, a novel machine-learning method specifically designed for the precise identification of cell identity genes by leveraging genetic sequence and RNA expression patterns.
+# Welcome to CIGpred: A tool for identifying cell identity genes (CIGs) utilizing genetic sequence and RNA expression patterns at bulk and single-cell levels.
+
