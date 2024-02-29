@@ -6,6 +6,18 @@ In every cell type, a unique set of cell identity genes (CIGs) plays a pivotal r
 
 # What constitutes the input data for CIG-Pred and CIG-reg-Pred algorithms?
 
-The input for CIG-Pred consists of either raw read counts from bulk-seq or unique molecular identifier (UMI) counts from single-cell sequencing data. In addition, CIG-Pred automatically utilizes precomputed genetic sequence features during its prediction process.
+The input for CIG-Pred consists of either raw read counts from bulk-seq or gene per cell unique molecular identifier (UMI) count matrix from single-cell sequencing data. In addition, CIG-Pred automatically utilizes precomputed genetic sequence features during its prediction process.
 
 For CIG-reg-Pred, the required inputs include the predicted cell identity scores obtained from the CIG-Pred algorithm, along with gene regulatory network (GRN) information. It's worth noting that the GRN information is already integrated into the model.
+
+# Term of Usage
+By accessing CIG-Pred data, you agree to the following terms:
+
+1. You agree not to share the CIG-Pred data, whether modified or unmodified, with individuals outside your research group. This includes preventing access by unauthorized individuals and refraining from directly providing the data to others.
+
+2. You agree not to develop another website or methods using the CIG-Pred data without prior permission. Contact us for any such intentions.
+
+3. You agree to appropriately cite the CIG-Pred paper and its original contributions if utilized in your work.
+
+4. You certify that you are authorized to accept these terms on behalf of your institution.
+
