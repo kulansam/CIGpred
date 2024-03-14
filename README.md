@@ -18,7 +18,7 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
 -  install CIGpred
   python setup.py install
 # Tutorial 
-
+# Cite us
 # Term of Usage
 By accessing CIG-Pred data, you agree to the following terms:
 
@@ -30,3 +30,4 @@ By accessing CIG-Pred data, you agree to the following terms:
 
 4. You certify that you are authorized to accept these terms on behalf of your institution.
 
+# Contact
