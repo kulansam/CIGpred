@@ -44,3 +44,8 @@ By accessing CIG-Pred data, you agree to the following terms:
 4. You certify that you are authorized to accept these terms on behalf of your institution.
 
 # Contact
+KulandaiSamy.Arulsamy@childrens.harvard.edu
+or
+Kaifu.Chen@childrens.harvard.edu
+Copy Right @ Kaifu Chen Lab @ Boston Childrens Hospital / Harvard Medical School
+
