@@ -13,10 +13,10 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
 - download CIG-Pred package from GitHub:
   git clone https://github.com/kulansam/CIGpred.git
   cd CIGpred
-- install requirements
- ```sh pip install -r requirements.txt  ```
+- install requirements:
+ ``` pip install -r requirements.txt  ```
 -  install CIGpred
-  pip install .
+ ``` pip install .``` 
 # Tutorial 
 # Cite us
 # Term of Usage
