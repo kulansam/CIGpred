@@ -32,6 +32,8 @@ The following command could used to identify the cell identity genes (CIGs) in t
   ```
 
 # Cite us
+Please cite us at <a href='#' target='_blank'>bioRxiv</a> if you find CIG-Pred  is useful to your project.</p>
+
 # Term of Usage
 By accessing CIG-Pred data, you agree to the following terms:
 
