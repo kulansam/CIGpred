@@ -22,9 +22,9 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
   pip install -r requirements.txt
   ```
   -  install CIGpred
- ```sh
+  ```sh
   pip install .
- ```
+  ```
 # Tutorial 
 # Cite us
 # Term of Usage
