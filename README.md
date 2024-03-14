@@ -10,22 +10,27 @@ The input for CIG-Pred consists of either raw read counts from bulk-seq or gene 
 
 For CIG-reg-Pred, the required inputs include the predicted cell identity scores obtained from the CIG-Pred algorithm, along with gene regulatory network (GRN) information. It's worth noting that the GRN information is already integrated into the model.
 # Installation
-- download CIG-Pred package from GitHub:
+- Download CIG-Pred package from GitHub:
   ```sh
   git clone https://github.com/kulansam/CIGpred.git
   ```
   ```sh
   cd CIGpred
   ```
-  - install requirements
+  - Install requirements
   ```sh
   pip install -r requirements.txt
   ```
-  -  install CIGpred
+  -  Install CIGpred
   ```sh
   pip install .
   ```
 # Tutorial 
+The following command could used to identify the cell identity genes (CIGs) in the human genome using expression determined by bulk-RNA sequencing profiles:
+  ```sh
+    python CIG_pred.py -organism hs -assaytype bulk -inputtype rawcount -file expression_data.txt (tab separated)
+  ```
+
 # Cite us
 # Term of Usage
 By accessing CIG-Pred data, you agree to the following terms:
