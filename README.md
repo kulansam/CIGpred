@@ -47,5 +47,6 @@ By accessing CIG-Pred data, you agree to the following terms:
 KulandaiSamy.Arulsamy@childrens.harvard.edu
 or
 Kaifu.Chen@childrens.harvard.edu
+<hr>
 Copy Right @ Kaifu Chen Lab @ Boston Childrens Hospital / Harvard Medical School
 
