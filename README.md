@@ -23,7 +23,7 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
   ```
 -  Install CIGpred
   ```sh
-  pip install .
+   pip install .
   ```
 # Tutorial 
 The following command could used to identify the cell identity genes (CIGs) in the human genome using expression determined by bulk-RNA sequencing profiles:
