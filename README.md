@@ -31,11 +31,13 @@ The following command could used to identify the cell identity genes (CIGs) in t
     python CIG_pred.py -organism hs -assaytype bulk -inputtype rawcount -file expression_data.txt (tab separated)
   ```
   ```sh
-    -organism : Name of the organism. For humans, the value should be "hs", and for mice, the value should be "mm".
+    -organism : Name of the organism. For humans, the value should be "hs". For mice, the value should be "mm".
 
-    -assaytype: The input RNA expression data was quantified differently based on the level of analysis. For bulk or pseudobulk data, the value is "bulk". Conversely, in the case of single-cell level analysis, the value is "single".
+    -assaytype: The input RNA expression data was quantified differently based on the level of analysis. For bulk or pseudobulk data, the value is "bulk".
+Conversely, in the case of single-cell level analysis, the value is "single".
 
-    -inputtype: The format of the input data differs based on the analysis level. For bulk or pseudobulk data, the value is either "rawcount" or "tpm". Conversely, in the case of single-cell data, the value should be "umicount".
+    -inputtype: The format of the input data differs based on the analysis level. For bulk or pseudobulk data, the value is either "rawcount" or "tpm".
+Conversely, in the case of single-cell data, the value should be "umicount".
 
     -file: name of the input file name with the tab-separated file format.
   ```
