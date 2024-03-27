@@ -30,9 +30,11 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
   Use the following command:
   
   ```sh
-    python CIG_pred.py -organism <hs|mm> -assaytype <bulk|single> -inputtype <rawcount|umicount> -file <expression_data.txt>
+    python CIG_pred.py -organism <hs> -assaytype <bulk> -inputtype <rawcount> -file <expression_data.txt>
   ```
   ```sh
+    -for more information:
+  
     -organism : Name of the organism.
 
                 1. For humans, the value should be "hs".
