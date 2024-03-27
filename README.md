@@ -26,9 +26,9 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
   pip install .
   ```
 # Tutorial 
-The following command could used to identify the cell identity genes (CIGs) in the human genome using expression determined by bulk-RNA sequencing profiles:
+- Identifying the cell identity genes (CIGs) and their master transcription factors in the human or mouse genome - using either bulk-RNA or pseudo bulk RNA sequencing profiles:
   ```sh
-    python CIG_pred.py -organism <hs|mm> -assaytype <bulk|single> -inputtype <rawcount|umicount> -file expression_data.txt
+    python CIG_pred.py -organism <hs|mm> -assaytype <bulk|single> -inputtype <rawcount|umicount> -file <expression_data.txt>
   ```
   ```sh
     -organism : Name of the organism.
@@ -38,7 +38,7 @@ The following command could used to identify the cell identity genes (CIGs) in t
 
     -assaytype: The input RNA expression data was quantified differently based on the level of analysis.
 
-                1. For bulk or pseudobulk data, the value is "bulk".
+                1. For bulk or pseudo bulk data, the value is "bulk".
                 2. For Single-cell level data, the value is "single".
 
     -inputtype: The format of the input data differs based on the analysis level.
