@@ -33,7 +33,7 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
     python CIG_pred.py -organism <hs> -assaytype <bulk> -inputtype <rawcount> -file <expression_data.txt>
   ```
   ```sh
-    -for more information:
+    For more information:
   
     -organism : Name of the organism.
 
@@ -51,6 +51,35 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
 
     -file: name of the input file name with the tab-separated file format.
   ```
+
+  - How can you discover cell identity genes (CIGs) at single-cell level using single-cell RNA sequencing profiles?
+  Use the following command:
+  
+  ```sh
+    python CIG_pred.py -organism <hs> -assaytype <single> -inputtype <umicount> -file <cellranger matrix output folder name>
+  ```
+  ```sh
+    For more information:
+  
+    -organism : Name of the organism.
+
+                1. For humans, the value should be "hs".
+                2. For mice, the value should be "mm".
+
+    -assaytype: The input RNA expression data was quantified differently based on the level of analysis.
+
+                1. For bulk or pseudo bulk data, the value is "bulk".
+                2. For Single-cell level data, the value is "single".
+
+    -inputtype: The format of the input data differs based on the analysis level.
+                1. For bulk or pseudobulk data, the value is either "rawcount" or "tpm".
+                2. For single-cell data, the value should be "umicount".
+
+    -file: The directory path for the Cell Ranger output folder.
+            It should contain the following files: barcodes.tsv, features.tsv, and matrix.mtx.
+  ```
+
+  
 # Cite us
 Please cite us at <a href='#' target='_blank'>bioRxiv</a> if you find CIG-Pred  is useful to your project.</p>
 
