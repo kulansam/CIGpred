@@ -77,6 +77,7 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
 
     -file: The directory path for the Cell Ranger output folder.
             It should contain the following files: barcodes.tsv, features.tsv, and matrix.mtx.
+  
   ```
 
   
