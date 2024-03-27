@@ -2,7 +2,7 @@
 In every cell type, a unique set of cell identity genes (CIGs) plays a pivotal role in defining its specific characteristics. Alongside other gene categories like housekeeping genes and heat shock genes, cells express their CIGs, crucial for guiding cellular differentiation and the formation of tissues and organs in organisms. Thus, we have developed two logistic regression-based machine-learning methodologies for the identification of cell identity genes (CIGs) and their master transcription factors:
 
 1. CIG-Pred: This tool accurately discerns cell identity genes by integrating genetic sequence and RNA expression profiles in a given cell type.
-2. CIG-reg-Pred: Subsequently, CIG-reg-Pred determines the master transcription factors governing the expression of identified cell identity genes in a given cell type.
+2. CIG-reg-Pred: Subsequently, CIG-reg-Pred determines the master transcription factors using predicted cell identity genes (CIG-Pred output) and their regulatory networks.
 
 # What constitutes the input data for CIG-Pred and CIG-reg-Pred algorithms?
 
