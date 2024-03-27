@@ -52,7 +52,7 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
     -file: name of the input file name with the tab-separated file format.
   ```
 
-  - How can you discover cell identity genes (CIGs) at single-cell level using single-cell RNA sequencing profiles?
+- How can you discover cell identity genes (CIGs) at single-cell level using single-cell RNA sequencing profiles?
   Use the following command:
   
   ```sh
