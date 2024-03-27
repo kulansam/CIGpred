@@ -26,7 +26,9 @@ For CIG-reg-Pred, the required inputs include the predicted cell identity scores
   pip install .
   ```
 # Tutorial 
-- Identifying the cell identity genes (CIGs) and their master transcription factors in the human or mouse genome - using either bulk-RNA or pseudo bulk RNA sequencing profiles:
+- How can you discover cell identity genes (CIGs) and their master transcription factors using either bulk-RNA or pseudobulk RNA sequencing profiles?
+  Use the following command:
+  
   ```sh
     python CIG_pred.py -organism <hs|mm> -assaytype <bulk|single> -inputtype <rawcount|umicount> -file <expression_data.txt>
   ```
