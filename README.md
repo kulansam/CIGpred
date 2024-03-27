@@ -39,7 +39,7 @@ The following command could used to identify the cell identity genes (CIGs) in t
     -assaytype: The input RNA expression data was quantified differently based on the level of analysis.
 
                 1. For bulk or pseudobulk data, the value is "bulk".
-                2. Single-cell level data, the value is "single".
+                2. For Single-cell level data, the value is "single".
 
     -inputtype: The format of the input data differs based on the analysis level.
                 1. For bulk or pseudobulk data, the value is either "rawcount" or "tpm".
